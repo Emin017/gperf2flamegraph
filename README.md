@@ -97,3 +97,6 @@ Contributions are welcome! Please feel free to submit a [Pull Request](https://g
 
 ## 📄 License
 This project is licensed under the Mulan PSL v2 License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgements
+This project is inspired by [gperftools_flamegraph_profiler](https://github.com/dwangxxx/gperftools_flamegraph_profiler).
