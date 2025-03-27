@@ -1,0 +1,27 @@
+name: "Build gperf2flamegraph"
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    name: Build on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cachix/install-nix-action@v31
+      - name: Flake check
+        run: nix flake check --all-systems
+      - name: Build gperf2flamegraph
+        run: nix build '.#gperf2flamegraph'
+      - name: Upload gperf2flamegraph
+        uses: actions/upload-artifact@v4.6.1
+        with:
+          name: gperf2flamegraph-${{ matrix.os }}
+          path: result/bin/gperf2flamegraph
