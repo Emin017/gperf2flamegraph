@@ -95,3 +95,5 @@ If you see too many "???" unknown symbols:
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## 📄 License
+This project is licensed under the Mulan PSL v2 License - see the [LICENSE](LICENSE) file for details.
