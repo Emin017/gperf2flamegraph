@@ -12,8 +12,8 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Emin017/gperf2flamegraph)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Emin017/gperf2flamegraph)
 
-![GitHub stars](https://img.shields.io/github/stars/Emin017/gperf2flamegrap?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Emin017/gperf2flamegrap?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Emin017/gperf2flamegraph?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Emin017/gperf2flamegraph?style=social)
 
 [![English](https://img.shields.io/badge/English-README-2ea44f?style=for-the-badge)](README.md)
 <!-- [![中文](https://img.shields.io/badge/中文-介绍-FF6F61?style=for-the-badge)](README_CN.md) -->
