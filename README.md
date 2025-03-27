@@ -19,7 +19,7 @@
 <!-- [![中文](https://img.shields.io/badge/中文-介绍-FF6F61?style=for-the-badge)](README_CN.md) -->
 </div>
 
-A Rust tool for converting Google gperftools CPU profiler output to FlameGraph visualization format.
+A Rust tool for converting Google [gperftools](https://github.com/gperftools/gperftools) CPU profiler output to [FlameGraph](https://www.brendangregg.com/flamegraphs.html) visualization format.
 
 ## 🔥 Features
 
