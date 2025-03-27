@@ -93,7 +93,7 @@ If you see too many "???" unknown symbols:
 2. Check that you're providing the correct executable path
 
 ## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a [Pull Request](https://github.com/Emin017/gperf2flamegraph/pulls).
 
 ## 📄 License
 This project is licensed under the Mulan PSL v2 License - see the [LICENSE](LICENSE) file for details.
