@@ -21,7 +21,7 @@ jobs:
       - name: Build gperf2flamegraph
         run: nix build '.#gperf2flamegraph'
       - name: Upload gperf2flamegraph
-        uses: actions/upload-artifact@v4.6.1
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: gperf2flamegraph-${{ matrix.os }}
           path: result/bin/gperf2flamegraph
