@@ -1,4 +1,4 @@
-# ✨ gperf2flamegraph
+# ✨ gperf2flamegraph (g2f) ✨
 
 <div align="center">
 <img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&amp;logo=github&amp;logoColor=white">
@@ -39,7 +39,7 @@ cargo build --release
 ## 📖 Usage
 Basic syntax:
 ```shell
-gperf2flamegraph <EXECUTABLE> <PROFILE_FILE> [OPTIONS]
+g2f <EXECUTABLE> <PROFILE_FILE> [OPTIONS]
 ```
 
 Parameters
@@ -62,12 +62,12 @@ Options
 
 ### Basic Usage
 ```shell
-gperf2flamegraph <gprof_output_file> <output_file>
+g2f <gprof_output_file> <output_file>
 ```
 
 ### With Options
 ```shell
-gperf2flamegraph <EXECUTABLE> gprof.prof --svg-output gprof.svg --text-output gprof.txt
+g2f <EXECUTABLE> gprof.prof --svg-output gprof.svg --text-output gprof.txt
 ```
 
 ---
@@ -79,7 +79,7 @@ If you encounter "Failed to start flamegraph.pl" error:
 ```shell
 # Option 1: Install FlameGraph and specify path
 git clone https://github.com/brendangregg/FlameGraph.git
-./gperf2flamegraph myapp cpu.prof --svg-output out.svg --flamegraph-path ./FlameGraph/flamegraph.pl
+./g2f myapp cpu.prof --svg-output out.svg --flamegraph-path ./FlameGraph/flamegraph.pl
 
 # Option 2: Add FlameGraph to your PATH
 export PATH=$PATH:$(pwd)/FlameGraph

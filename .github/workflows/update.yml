@@ -19,7 +19,7 @@ jobs:
           nix flake update
       - name: Build gperf2flamegraph
         run: |
-          nix build '.#gperf2flamegraph'
+          nix build '.#g2f'
       - name: Create Pull Request
         run: |
           echo "Creating a new pull request..."
