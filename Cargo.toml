@@ -1,5 +1,5 @@
 [package]
-name = "gperf2flamegraph"
+name = "g2f"
 version = "0.1.0"
 edition = "2021"
 authors = ["Emin <cchuqiming@gmail.com>"]

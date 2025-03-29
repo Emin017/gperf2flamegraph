@@ -30,11 +30,11 @@
       in
       {
         packages = {
-          gperf2flamegraph = pkgs.callPackage ./nix/pkgs/gperf2flamegraph.nix { };
-          default = self.packages.${system}.gperf2flamegraph;
+          g2f = pkgs.callPackage ./nix/pkgs/g2f.nix { };
+          default = self.packages.${system}.g2f;
         };
         devShells.default = pkgs.mkShell {
-          inputsFrom = [ self.packages.${system}.gperf2flamegraph ];
+          inputsFrom = [ self.packages.${system}.g2f ];
           nativeBuildInputs = with pkgs; [ pkg-config ];
           RUST_SRC_PATH = pkgs.rustPlatform.rustLibSrc;
           PKG_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
