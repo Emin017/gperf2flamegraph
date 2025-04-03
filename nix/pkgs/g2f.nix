@@ -7,7 +7,7 @@
   ...
 }:
 rustPlatform.buildRustPackage {
-  pname = "gperf2flamegraph";
+  pname = "g2f";
   version = "0.1.0";
 
   cargoLock = {
