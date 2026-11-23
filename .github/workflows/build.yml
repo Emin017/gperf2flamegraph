@@ -15,7 +15,7 @@ jobs:
         os: [ubuntu-latest, macos-latest]
     steps:
       - uses: actions/checkout@v7
-      - uses: cachix/install-nix-action@v31
+      - uses: cachix/install-nix-action@v32
       - name: Flake check
         run: nix flake check --all-systems
       - name: Build gperf2flamegraph
